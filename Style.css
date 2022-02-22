@@ -41,3 +41,18 @@ ul {
 #TopNav {
     margin-top: -2%;
 }
+
+#News1,#News2{
+    display: inline-block;
+    background-color: #666666;
+    width: 25%;
+    height: 100%;
+    overflow: scroll;
+    float: left;
+    
+}
+
+<details>
+            <summary>Student Life</summary>
+            <p>Enjoying life by doing research and exploring the rockies</p>
+        </details>
