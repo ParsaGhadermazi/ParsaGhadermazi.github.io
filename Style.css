@@ -11,17 +11,19 @@ h1 {
 
 h2 {
     background-color: #2a272d;
-    color: rgb(228, 228, 228);
+    color: rgb(255, 255, 255);
     padding-left: 0.9%;
     font-size: 25px;
     border: solid 3px #2a272d;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 ul {
     color: rgb(213, 211, 211);
     font-size: 150%;
-    background-color: #666666;
-    width: 100px;
+    background-color: #ffffff;
+    width: 150px;
+
 }
 
 #a1,
@@ -40,10 +42,26 @@ ul {
     border-width: 1px;
     background-color: #666666;
     padding-left: 1%;
-    margin: -0.7% 0% 0% 0%;
+    margin: 0.7% 0% 0% 0%;
     border: solid 3px #666666;
 }
+#a1:hover,
+#a2:hover,
+#a3:hover,
+#a4:hover{
+    background-color: #0d0c0e;
+    color: rgb(228, 228, 228);
+    border: solid 3px #2a272d;
+} 
 
+li{
+   margin:10%;
+   color: #302e2e;
+   background-color: #e0e0e0;
+   padding-left: 3%;
+   width: 100%;
+   font-family: Trebuchet MS;
+}
 #TopNav {
     margin-top: -2%;
 }
@@ -61,8 +79,11 @@ ul {
     height: 80%;
     overflow: scroll;
     padding-left: 2%;
-    border: solid 3px #a06262;
+    border: solid 3px #201919;
     margin: 0.5% 0.5% 0.1% 0.2%;
+    font-family: Trebuchet MS;
+    font-size: 22px;
+
 }
 
 details {
