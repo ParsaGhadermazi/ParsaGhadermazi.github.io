@@ -94,3 +94,9 @@ details {
 img {
     display: none;
 }
+.Pub_list{
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    width: 1000%;
+}
