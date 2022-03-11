@@ -9,23 +9,23 @@
 </head>
 
 <body>
-    <script>
-        alert("Welcome to my website!");
-    </script>
+    <header>
+        <h1>Parsa Ghadermazi</h1>
+    </header>
     <main>
         <nav id="TopNav">
             <a id="a1" href="#Apples">Apples</a>
-            <a id="a2" href="#PUBS">Publications</a>
+            <a id="a2" onclick="pubMsg()" href="#PUBS">Publications</a>
             <a id="a3" href="#Crab">Projects</a>
             <a id="a4" href="#Choccake">Hobbies</a>
         </nav>
         <h2>Info</h2>
-
+        <!-- 
         <div>
             <script>
                 document.write("Hello");
             </script>
-        </div>
+        </div> -->
         <h2>Background</h2>
         <ul>
             <li id="Apples">Apples</li>
@@ -73,13 +73,17 @@
         </div>
         <h2>More About Me</h2>
         <details>
-            <summary>Student Life</summary>
+            <summary id="switch_ON">Student Life</summary>
             <p>Enjoying life by doing research and exploring the rockies</p>
         </details>
 
         <img src="MyPic.jpg" alt="Me in the rockies" />
+        <button onclick="Switch()">Disappear Summary</button>
     </main>
-    <footer></footer>
+    <footer>
+        <button onclick="getDate()">Show Date</button>
+        <span id="date"></span>
+    </footer>
 </body>
 
 </html>

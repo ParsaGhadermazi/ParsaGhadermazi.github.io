@@ -128,3 +128,7 @@ img {
     font-family: Trebuchet MS;
     width: 1000%;
 }
+
+.switch_OFF {
+    display: none;
+}
